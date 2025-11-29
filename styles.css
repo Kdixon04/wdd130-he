@@ -1,11 +1,23 @@
-body{
+body {
     font-family:"Alfa Slab One, Varela Round";
     background-color: #091540;
     margin: 0;
     padding: 0;
 }
-#wrapper{
+#wrapper {
     width: 80%;
     margin: auto;
-    background-color:#7692ff   
+    background-color:#7692ff;
+    border: 3px solid  #3d518c;
+    border-radius: 10px;
+    padding: 10px;  
+}
+nav {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #abd2fa;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #1b2cc1;
 }

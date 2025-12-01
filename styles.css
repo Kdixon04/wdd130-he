@@ -21,8 +21,18 @@ nav {
     border-radius: 10px;
     border: 2px solid #1b2cc1;
 }
-/*#logo{
+img {
+    margin: auto;
+    display: block;
+    padding: 10px;
+    border: #091540 solid 4px;
+    border-radius: 10px;
+}
+
+#logo{
     display:flex;
     margin: auto;
     padding: 10px;
-} */
+    height: fit-content;
+    width: fit-content;
+} 

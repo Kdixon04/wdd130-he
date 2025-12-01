@@ -8,8 +8,8 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #1b2cc1;
-    color: white;
-    border-top: 2px solid #3d518c;
+    color: #abd2fa;
+    border-top: 2px solid #1b2cc1;
 }
 #wrapper {
     width: 80%;
@@ -18,6 +18,7 @@ footer {
     border: 3px solid  #3d518c;
     border-radius: 10px;
     padding: 10px;  
+    color: #abd2fa;
 }
 nav {
     display:flex;
@@ -30,14 +31,15 @@ nav {
 }
 img {
     margin: auto;
-    display: block;
+    display: grid;
+    flex-direction: row;
     padding: 10px;
     border: #091540 solid 4px;
     border-radius: 10px;
 }
 
 #logo{
-    display:flex;
+    display: flex;
     margin: auto;
     padding: 10px;
     height: 50px;

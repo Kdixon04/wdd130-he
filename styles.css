@@ -4,6 +4,13 @@ body {
     margin: 0;
     padding: 0;
 }
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1b2cc1;
+    color: white;
+    border-top: 2px solid #3d518c;
+}
 #wrapper {
     width: 80%;
     margin: auto;

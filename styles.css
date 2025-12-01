@@ -33,6 +33,6 @@ img {
     display:flex;
     margin: auto;
     padding: 10px;
-    height: fit-content;
-    width: fit-content;
+    height: 50px;
+    width: 50px;
 } 

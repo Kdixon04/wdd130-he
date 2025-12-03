@@ -22,19 +22,39 @@ footer {
 }
 nav {
     display:flex;
+    margin: auto;
+    justify-content: space-around;
+    font-size: x-large;
+    align-items: center;
     background-color: #abd2fa;
     padding: 20px 0;
     border-radius: 10px;
     border: 2px solid #1b2cc1;
 }
+nav a {
+    text-decoration: none;
+    color: #091540;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #1b2cc1;
+    color: white;
+    border-radius: 5px;
+}
 img {
-    margin: auto;
+    margin: left 10px;
     display: grid;
     flex-direction: row;
+    
     padding: 10px;
 }
 
 #logo{
-    height: 50px;
-    width: 50px;
+    margin: left 10px;
+    height: 80px;
+    width: 80px;
+    border:#091540 solid 5px;
+    border-radius: 2px;
 } 

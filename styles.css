@@ -14,6 +14,7 @@ footer {
 #wrapper {
     width: 80%;
     margin: auto;
+    text-align: center;
     background-color:#7692ff;
     border: 3px solid  #3d518c;
     border-radius: 10px;
@@ -23,7 +24,7 @@ footer {
 nav {
     display:flex;
     margin: auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: x-large;
     align-items: center;
     background-color: #abd2fa;
@@ -45,8 +46,8 @@ nav a:hover {
 }
 img {
     margin: center;
-    display: grid;
-    flex-direction: row; 
+   /* display: grid; */
+    /* flex-direction: row; */
     border-radius: 25px;
     border:#091540 solid 5px;
 }

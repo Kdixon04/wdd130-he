@@ -46,10 +46,10 @@ nav a:hover {
 }
 img {
     margin: center;
-   /* display: grid; */
-    /* flex-direction: row; */
     border-radius: 25px;
     border:#091540 solid 5px;
+    height: 200px;
+    width: 200px;
 }
 
 #logo{
